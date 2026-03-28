@@ -1,0 +1,11 @@
+﻿{
+  "name": "hackathon-sweepstakes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy:sweepstakes-ext": "bash ./scripts/deploy-sweepstakes-ext.sh"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0"
+  }
+}

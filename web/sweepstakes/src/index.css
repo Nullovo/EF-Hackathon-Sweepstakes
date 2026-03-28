@@ -1,0 +1,62 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root {
+  color: #f3f4f6;
+  background: #090b0f;
+  font-family: 'Oxanium', Inter, system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg: #090b0f;
+  --panel: rgba(17, 20, 26, 0.94);
+  --panel-soft: rgba(21, 25, 33, 0.88);
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 145, 0, 0.28);
+  --text: #f5f7fa;
+  --muted: #98a2b3;
+  --accent: #ff8a1c;
+  --accent-strong: #ff6a00;
+  --danger: #ff4d4f;
+  --success: #22c55e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top, rgba(255, 136, 0, 0.16), transparent 28%),
+    radial-gradient(circle at right top, rgba(255, 106, 0, 0.12), transparent 24%),
+    linear-gradient(180deg, #0a0c11 0%, #07090d 100%);
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: radial-gradient(circle at center, black, transparent 82%);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#root {
+  width: min(1400px, 100%);
+  margin: 0 auto;
+}

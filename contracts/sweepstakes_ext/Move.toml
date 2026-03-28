@@ -1,0 +1,10 @@
+[package]
+name = "sweepstakes_ext"
+edition = "2024"
+
+[dependencies]
+world = { local = "../world", addr_subst = { "world" = "0xd12a70c74c1e759445d6f209b01d43d860e97fcf2ef72ccbbd00afd828043f75" } }
+assets = { local = "../assets", addr_subst = { "assets" = "0xf0446b93345c1118f21239d7ac58fb82d005219b2016e100f074e4d17162a465" } }
+
+[addresses]
+extension_examples = "0x0"

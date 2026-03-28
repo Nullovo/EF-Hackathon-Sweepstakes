@@ -1,0 +1,14 @@
+﻿node_modules/
+deployments/
+*.log
+
+contracts/**/build/
+contracts/**/Published.toml
+contracts/**/Pub.*.toml
+
+web/**/node_modules/
+web/**/dist/
+web/**/.env
+
+.DS_Store
+Thumbs.db
