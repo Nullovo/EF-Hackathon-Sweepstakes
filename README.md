@@ -2,6 +2,22 @@
 
 Storage Unit Sweepstakes is a hackathon-ready raffle system built on top of the EVE Frontier `world-contracts` ecosystem. It combines Move smart contracts, a React web app, and lightweight deployment tooling into a focused standalone project that is easy to demo, review, and submit.
 
+## Deployment Information
+
+- **Project Name:** Storage Unit Sweepstakes
+- **DeepSurge Project Page:** [https://www.deepsurge.xyz/projects/7fe957f3-0e64-479f-86a9-ded4cf18b596](https://www.deepsurge.xyz/projects/7fe957f3-0e64-479f-86a9-ded4cf18b596)
+
+### Stillness Deployment
+
+- **Extension Package:** `0x378c592b9b78b98d8b4295cdf2dd852078d5ad6fcb05451373256af066f35fe0`
+- **Storage Unit Assembly ID:** `0x12eb62a2e89fabd6178de55c2795c8abb656270ce15a2457f026eaf88cdd046d`
+
+### Utopia Deployment
+
+- **Extension Package:** `0x778eecc126100414f42f8f5c7493807a0a2bd136da7939f839d55831d8c606bd`
+- **Storage Unit Assembly ID:** `0x90f032a03c95beaeb8c421b7e82178c764f3cdda78fcef1a245245e54e7cb5f1`
+
+
 ## Overview
 
 This project turns on-chain assets into prizes for a transparent, verifiable lottery flow.
